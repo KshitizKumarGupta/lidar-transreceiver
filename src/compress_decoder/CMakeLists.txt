@@ -202,6 +202,4 @@ include_directories(
 ## Add folders to be run by python nosetests
 # catkin_add_nosetests(test)
 add_executable(decoder src/decoder.cpp)
-add_executable(callback_decoder src/callback_decoder.cpp)
 target_link_libraries(decoder ${catkin_LIBRARIES})
-target_link_libraries(callback_decoder ${catkin_LIBRARIES})
